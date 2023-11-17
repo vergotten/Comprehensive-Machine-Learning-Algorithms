@@ -62,15 +62,27 @@ This repository contains implementations of various machine learning algorithms.
  
 ## Supervised Learning
 
+Supervised Learning: It’s a type of machine learning where models are trained using labeled data. The model makes predictions based on this data and the accuracy of the predictions is improved over time.
+
 ### Regression
+
+It’s a statistical method used to understand the relationship between dependent and independent variables. It’s commonly used to make projections, such as for sales revenue for a given business.
 
 #### Linear Regression
 
+This is a type of regression where the relationship between the dependent and independent variables is linear. It’s used to predict a continuous outcome variable.
+
 #### Logistic Regression
+
+Unlike linear regression, logistic regression is used when the dependent variable is binary. It estimates the probability of an event occurring based on given independent variables.
 
 #### Ridge Regression
 
+This is a technique used when the data suffers from multicollinearity (high correlation between predictor variables). It adds a degree of bias to the regression estimates, which leads to more robust estimates under certain situations.
+
 #### Lasso Regression
+
+Similar to ridge regression, lasso (Least Absolute Shrinkage and Selection Operator) regression not only helps in avoiding overfitting but can also be used for feature selection. It does this by forcing the sum of the absolute value of the regression coefficients to be less than a fixed value, effectively reducing some coefficients to zero.
 
 ### Classification
 
