@@ -59,3 +59,113 @@ This repository contains implementations of various machine learning algorithms.
   - [Sequence-Based Systems](#sequence-based-systems)
   - [Reinforcement-Based Systems](#reinforcement-based-systems)
   - [Deep Learning Based Systems](#deep-learning-based-systems)
+ 
+## Supervised Learning
+
+### Regression
+
+#### Linear Regression
+
+#### Logistic Regression
+
+#### Ridge Regression
+
+#### Lasso Regression
+
+### Classification
+
+#### K-Nearest Neighbors (KNN)
+
+#### Support Vector Machines (SVM)
+
+#### Naive Bayes
+
+#### Decision Trees
+
+### Ensemble Methods
+
+#### Random Forest
+
+#### AdaBoost
+
+#### Gradient Boosting
+
+#### XGBoost
+
+#### LightGBM
+
+#### CatBoost
+
+## Unsupervised Learning
+
+### Clustering
+
+#### K-Means
+
+#### Hierarchical Clustering
+
+#### DBSCAN
+
+### Dimensionality Reduction
+
+#### Principal Component Analysis (PCA)
+
+#### t-SNE
+
+## Time Series Analysis
+
+### ARIMA
+
+## Anomaly Detection
+
+### Isolation Forest
+
+## Association Rule Learning
+
+### Apriori
+
+### FP-Growth
+
+## Neural Networks and Deep Learning
+
+### Perceptron
+
+### Multi-Layer Perceptron (MLP)
+
+### Convolutional Neural Networks (CNN)
+
+### Recurrent Neural Networks (RNN)
+
+### Long Short-Term Memory (LSTM)
+
+### Autoencoders
+
+### Generative Adversarial Networks (GAN)
+
+### Word2Vec
+
+### BERT
+
+### Transformers
+
+## Recommender Systems
+
+### Content-Based Filtering
+
+### Collaborative Filtering
+
+### Hybrid Systems
+
+### Knowledge-Based Systems
+
+### Contextual Systems
+
+### Demographic-Based Systems
+
+### Social Network Based Systems
+
+### Sequence-Based Systems
+
+### Reinforcement-Based Systems
+
+### Deep Learning Based Systems
