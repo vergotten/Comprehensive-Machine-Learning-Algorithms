@@ -4,8 +4,8 @@ This repository contains implementations of various machine learning algorithms.
 
 ## Table of Contents
 
-- [Supervised Learning](supervised-learning/README.md#supervised-learning)
-  - [Regression](Supervised Learning/README.md#regression)
+- [Supervised Learning](Supervised-Learning/README.md#supervised-learning)
+  - [Regression](Supervised-Learning/README.md#regression)
     - [Linear Regression](#linear-regression)
     - [Logistic Regression](#logistic-regression)
     - [Ridge Regression](#ridge-regression)
