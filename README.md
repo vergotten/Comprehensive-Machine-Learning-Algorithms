@@ -33,7 +33,7 @@ This repository contains implementations of various machine learning algorithms.
   - [Dimensionality Reduction / Уменьшение размерности](Unsupervised-Learning/Dimensionality%20Reduction)
     - [Principal Component Analysis (PCA) / Главные компоненты анализа (PCA)](Unsupervised-Learning/Dimensionality%20Reduction/Principal%20Component%20Analysis%20(PCA).ipynb)
     - [T-distributed Stochastic Neighbor Embedding (t-SNE)](Unsupervised-Learning/Dimensionality%20Reduction/T-distributed%20Stochastic%20Neighbor%20Embedding%20(t-SNE).ipynb)
-- [Time Series Analysis](Time-Series-Analysis/README.md#time-series-analysis)
+- [Time Series Analysis / Анализ временных рядов](Time-Series-Analysis/README.md#time-series-analysis)
   - [ARIMA](Time-Series-Analysis/ARIMA.ipynb)
 - [Anomaly Detection](Anomaly-Detection/README.md#anomaly-detection)
   - [Isolation Forest](Anomaly-Detection/README.md#isolation-forest)
