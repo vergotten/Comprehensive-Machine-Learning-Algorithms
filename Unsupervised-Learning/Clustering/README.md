@@ -14,7 +14,7 @@ Hierarchical Clustering is another unsupervised learning algorithm that is used 
 - Агломеративные иерархические алгоритмы - в агломеративных иерархических алгоритмах каждая точка данных рассматривается как отдельный кластер, а затем последовательно объединяют или агломерируют (снизу вверх) пары кластеров. Иерархия кластеров представлена в виде дендрограммы или древовидной структуры.
 - Дивизивные иерархические алгоритмы - с другой стороны, в дивизивных иерархических алгоритмах все точки данных рассматриваются как один большой кластер, и процесс кластеризации включает разделение (сверху вниз) одного большого кластера на различные малые кластеры.
 
-# DBSCAN / DBSCAN
+# DBSCAN / Density-Based Spatial Clustering of Applications with Noise
 
 DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a density-based clusering algorithm, which can discover clusters of different shapes and sizes from a large amount of data, which is containing noise and outliers. The main idea is that a point belongs to a cluster if it is close to many points from that cluster.
 
