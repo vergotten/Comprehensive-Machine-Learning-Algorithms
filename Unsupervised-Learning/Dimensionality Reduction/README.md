@@ -1,0 +1,11 @@
+# Principal Component Analysis (PCA) / Главные компоненты анализа (PCA)
+
+Principal Component Analysis (PCA) is a statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components. This transformation is defined in such a way that the first principal component has the largest possible variance, and each succeeding component in turn has the highest variance possible under the constraint that it is orthogonal to the preceding components.
+
+Главные компоненты анализа (PCA) - это статистическая процедура, которая использует ортогональное преобразование для преобразования набора наблюдений, возможно, коррелированных переменных в набор значений линейно некоррелированных переменных, называемых главными компонентами. Это преобразование определено таким образом, что первый главный компонент имеет наибольшую возможную дисперсию, и каждый последующий компонент в свою очередь имеет наибольшую возможную дисперсию при условии, что он ортогонален предыдущим компонентам.
+
+# T-distributed Stochastic Neighbor Embedding (t-SNE)
+
+T-distributed Stochastic Neighbor Embedding (t-SNE) is a machine learning algorithm for visualization developed by Laurens van der Maaten and Geoffrey Hinton. It is a nonlinear dimensionality reduction technique well-suited for embedding high-dimensional data for visualization in a low-dimensional space of two or three dimensions. Specifically, it models each high-dimensional object by a two- or three-dimensional point in such a way that similar objects are modeled by nearby points and dissimilar objects are modeled by distant points with high probability.
+
+T-distributed Stochastic Neighbor Embedding (t-SNE) - это алгоритм машинного обучения для визуализации, разработанный Лоренсом ван дер Маатеном и Джеффри Хинтоном. Это нелинейная техника снижения размерности, хорошо подходящая для внедрения данных высокой размерности для визуализации в пространстве низкой размерности из двух или трех измерений. В частности, он моделирует каждый объект высокой размерности точкой в двух- или трехмерном пространстве таким образом, что похожие объекты моделируются близкими точками, а непохожие объекты моделируются далекими точками с высокой вероятностью.

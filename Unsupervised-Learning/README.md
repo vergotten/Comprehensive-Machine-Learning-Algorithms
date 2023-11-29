@@ -1,31 +1,17 @@
-## Unsupervised Learning
+# Unsupervised Learning / Обучение без учителя
 
-Unsupervised learning is a type of machine learning that looks for previously undetected patterns in a data set with no pre-existing labels and with a minimum of human supervision.
+Unsupervised Learning is a type of machine learning where models are trained using unlabeled data. The model identifies patterns and relationships in the data on its own. It's called "unsupervised" because there is no teacher or correct answers for the algorithm to learn from. 
 
-### Clustering
+Обучение без учителя - это тип машинного обучения, при котором модели обучаются с использованием неразмеченных данных. Модель самостоятельно определяет закономерности и взаимосвязи в данных. Это называется "обучение без учителя", потому что нет учителя или правильных ответов, из которых алгоритм мог бы учиться.
 
-Clustering is the task of dividing the population or data points into a number of groups such that data points in the same groups are more similar to other data points in the same group and dissimilar to the data points in other groups.
+## Clustering / Кластеризация
 
-#### K-Means
+Clustering is a method of unsupervised learning and is a common technique for statistical data analysis used in many fields. It is the task of grouping a set of objects in such a way that objects in the same group (a cluster) are more similar to each other than to those in other groups (clusters).
 
-K-means clustering is a method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster.
+Кластеризация - это метод обучения без учителя и общая техника статистического анализа данных, используемая во многих областях. Это задача группировки набора объектов таким образом, чтобы объекты в одной группе (кластере) были более похожи друг на друга, чем на объекты в других группах (кластерах).
 
-#### Hierarchical Clustering
+## Dimensionality Reduction / Уменьшение размерности
 
-Hierarchical clustering is where you build a cluster tree (a dendrogram) to represent data, where each group (or “node”) links to two or more successor groups. The groups are nested and organized as a tree, which ideally ends up as a meaningful classification scheme.
+Dimensionality Reduction is a method of reducing the number of random variables under consideration, by obtaining a set of principal variables. It can be divided into feature selection and feature extraction. This process is used to overcome the 'curse of dimensionality', which can cause problems when analyzing and visualizing high-dimensional data.
 
-#### DBSCAN
-
-DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a popular learning method utilized in model building and machine learning algorithms. This is a clustering method that is used in machine learning to separate clusters of high density from clusters of low density.
-
-### Dimensionality Reduction
-
-Dimensionality reduction is a series of techniques in machine learning and statistics to reduce the number of random variables to consider. It involves feature selection and feature extraction.
-
-#### Principal Component Analysis (PCA)
-
-Principal Component Analysis (PCA) is a technique for dimensionality reduction that identifies a set of orthogonal axes, called principal components, that capture the maximum variance in the data.
-
-#### t-SNE
-
-T-distributed neighbor embedding (t-SNE) is a dimensionality reduction technique that helps users visualize high-dimensional data sets. It takes the original data that is entered into the algorithm and matches both distributions to determine how to best represent this data using fewer dimensions.
+Уменьшение размерности - это метод сокращения числа случайных переменных путем получения набора основных переменных. Он может быть разделен на выбор признаков и извлечение признаков. Этот процесс используется для преодоления "проклятия размерности", которое может вызвать проблемы при анализе и визуализации данных высокой размерности.
