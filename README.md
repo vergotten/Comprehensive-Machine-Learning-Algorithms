@@ -40,7 +40,7 @@ This repository contains implementations of various machine learning algorithms.
 - [Association Rule Learning / Обучение ассоциативным правилам](Association-Rule-Learning/README.md#association-rule-learning)
   - [Apriori](Association-Rule-Learning/Apriori.ipynb)
   - [FP-Growth](Association-Rule-Learning/FP-Growth.ipynb)
-- [Neural Networks and Deep Learning](Neural-Networks-and-Deep-Learning/README.md#neural-networks-and-deep-learning)
+- [Neural Networks and Deep Learning](Neural-Networks-and-Deep-Learning)
   - [Perceptron](Neural-Networks-and-Deep-Learning/README.md#perceptron)
   - [Multi-Layer Perceptron (MLP)](Neural-Networks-and-Deep-Learning/README.md#multi-layer-perceptron-(mlp))
   - [Convolutional Neural Networks (CNN)](Neural-Networks-and-Deep-Learning/README.md#convolutional-neural-networks-(cnn))

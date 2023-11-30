@@ -1,43 +1,65 @@
-## Neural Networks and Deep Learning
+# Neural Networks and Deep Learning / Нейронные сети и глубокое обучение
 
-Neural networks are a set of algorithms, modeled loosely after the human brain, that are designed to recognize patterns. They interpret sensory data through a kind of machine perception, labeling or clustering raw input. Deep learning is a subset of machine learning where artificial neural networks, algorithms inspired by the human brain, learn from large amounts of data.
+Neural Networks and Deep Learning are a subset of machine learning methods based on artificial neural networks with representation learning. These methods have dramatically improved the state-of-the-art in speech recognition, visual object recognition, object detection, and many other domains.
 
-### Perceptron
+Нейронные сети и глубокое обучение - это подмножество методов машинного обучения, основанных на искусственных нейронных сетях с обучением представления. Эти методы значительно улучшили передовые методы в области распознавания речи, распознавания визуальных объектов, обнаружения объектов и многих других областях.
 
-Perceptron: A perceptron is a type of artificial neuron or the simplest form of a neural network. It is a model of a single neuron that can be used for binary classification problems, which means it can decide whether an input represented by a vector of numbers belongs to one class or another.
+## Perceptron / Перцептрон
 
-### Multi-Layer Perceptron (MLP)
+The Perceptron is a type of artificial neural network invented in 1957 at the Cornell Aeronautical Laboratory by Frank Rosenblatt. It can be seen as the simplest kind of feedforward neural network: a linear classifier.
 
-Multi-Layer Perceptron (MLP): A multilayer perceptron (MLP) is a feedforward artificial neural network that generates a set of outputs from a set of inputs. An MLP is characterized by several layers of input nodes connected as a directed graph between the input and output layers.
+Перцептрон - это тип искусственной нейронной сети, изобретенный в 1957 году в Корнеллской аэронавтической лаборатории Фрэнком Розенблаттом. Его можно рассматривать как самый простой вид прямой нейронной сети: линейный классификатор.
 
-### Convolutional Neural Networks (CNN)
+## Multi-Layer Perceptron (MLP) / Многослойный перцептрон (MLP)
 
-Convolutional Neural Networks (CNN): A convolutional neural network, or CNN, is a deep learning neural network designed for processing structured arrays of data such as images. Convolutional neural networks are widely used in computer vision and have become the state of the art for many visual applications such as image classification.
+A Multi-Layer Perceptron (MLP) is a class of feedforward artificial neural network. An MLP consists of at least three layers of nodes: an input layer, a hidden layer, and an output layer. Except for the input nodes, each node is a neuron that uses a nonlinear activation function.
 
-### Recurrent Neural Networks (RNN)
+Многослойный перцептрон (MLP) - это класс прямых искусственных нейронных сетей. MLP состоит как минимум из трех слоев узлов: входного слоя, скрытого слоя и выходного слоя. За исключением входных узлов, каждый узел является нейроном, который использует нелинейную активационную функцию.
 
-Recurrent Neural Networks (RNN): A recurrent neural network (RNN) is a type of artificial neural network which uses sequential data or time series data. These deep learning algorithms are commonly used for ordinal or temporal problems, such as language translation, natural language processing (nlp), speech recognition, and image captioning.
+## Convolutional Neural Networks (CNN) / Сверточные нейронные сети (CNN)
 
-### Long Short-Term Memory (LSTM)
+Convolutional Neural Networks (CNN) are a class of deep neural networks, most commonly applied to analyzing visual imagery. They are also known as shift invariant or space invariant artificial neural networks (SIANN), based on their shared-weights architecture and translation invariance characteristics.
 
-Long Short-Term Memory (LSTM): Long short-term memory (LSTM) is a deep learning architecture based on an artificial recurrent neural network (RNN). Long Short-Term Memory (LSTM) was created primarily for addressing sequential prediction issues. The LSTM networks can learn order dependence in sequence prediction challenges.
+Сверточные нейронные сети (CNN) - это класс глубоких нейронных сетей, наиболее часто применяемых для анализа визуальных изображений. Они также известны как сдвиговые инвариантные или пространственно инвариантные искусственные нейронные сети (SIANN) на основе их архитектуры с общими весами и характеристиками инвариантности к переводу.
 
-### Autoencoders
+## Recurrent Neural Networks (RNN) / Рекуррентные нейронные сети (RNN)
 
-Autoencoders: An autoencoder is a type of artificial neural network used to learn efficient codings of unlabeled data, typically for the purpose of dimensionality reduction. An autoencoder employs unsupervised learning to learn a representation (encoding) for a set of data, typically for the purpose of reducing the dimensionality of the data.
+Recurrent Neural Networks (RNN) are a class of artificial neural networks where connections between nodes form a directed graph along a temporal sequence. This allows it to exhibit temporal dynamic behavior. Unlike feedforward neural networks, RNNs can use their internal state (memory) to process sequences of inputs.
 
-### Generative Adversarial Networks (GAN)
+Рекуррентные нейронные сети (RNN) - это класс искусственных нейронных сетей, где связи между узлами образуют направленный граф вдоль временной последовательности. Это позволяет ему проявлять временное динамическое поведение. В отличие от прямых нейронных сетей, RNN могут использовать свое внутреннее состояние (память) для обработки последовательностей входов.
 
-Generative Adversarial Networks (GAN): A generative adversarial network, or GAN, is a deep neural network framework which is able to learn from a set of training data and generate new data with the same characteristics as the training data.
+## Long Short-Term Memory (LSTM) / Долгая краткосрочная память (LSTM)
 
-### Word2Vec
+Long Short-Term Memory (LSTM) is an artificial recurrent neural network (RNN) architecture used in the field of deep learning. Unlike standard feedforward neural networks, LSTM has feedback connections. It can not only process single data points (such as images), but also entire sequences of data (such as speech or video).
 
-Word2Vec: Word2vec is a technique for natural language processing (NLP) published in 2013. The word2vec algorithm uses a neural network model to learn word associations from a large corpus of text. Once trained, such a model can detect synonymous words or suggest additional words for a partial sentence.
+Долгая краткосрочная память (LSTM) - это архитектура искусственной рекуррентной нейронной сети (RNN), используемая в области глубокого обучения. В отличие от стандартных прямых нейронных сетей, LSTM имеет обратные связи. Он может обрабатывать не только отдельные точки данных (например, изображения), но и целые последовательности данных (например, речь или видео).
 
-### BERT
+## Autoencoders / Автоэнкодеры
 
-BERT: BERT, short for Bidirectional Encoder Representations from Transformers, is a machine learning (ML) framework for natural language processing.
+Autoencoders are a type of artificial neural network used to learn efficient data codings in an unsupervised manner. The aim of an autoencoder is to learn a representation (encoding) for a set of data, typically for the purpose of dimensionality reduction.
 
-### Transformers
+Автоэнкодеры - это тип искусственной нейронной сети, используемой для изучения эффективных кодировок данных без учителя. Цель автоэнкодера - изучить представление (кодирование) набора данных, обычно с целью уменьшения размерности.
 
-Transformers: Transformers are a type of model architecture used in natural language processing. They are designed to handle sequential data, with the order of the data mattering, while also being able to consider the entire context of the sequence at once. This is achieved through the use of self-attention mechanisms. Transformers have been used to achieve state-of-the-art results on a variety of tasks in natural language processing.
+## Generative Adversarial Networks (GAN) / Генеративно-состязательные сети (GAN)
+
+Generative Adversarial Networks (GANs) are a class of artificial intelligence algorithms used in unsupervised machine learning, implemented by a system of two neural networks contesting with each other in a zero-sum game framework.
+
+Генеративно-состязательные сети (GAN) - это класс алгоритмов искусственного интеллекта, используемых в машинном обучении без учителя, реализованных системой из двух нейронных сетей, соревнующихся друг с другом в рамках игры с нулевым итогом.
+
+## Word2Vec / Word2Vec
+
+Word2Vec is a group of related models that are used to produce word embeddings. These models are shallow, two-layer neural networks that are trained to reconstruct linguistic contexts of words.
+
+Word2Vec - это группа связанных моделей, которые используются для создания вложений слов. Эти модели представляют собой поверхностные двухслойные нейронные сети, которые обучаются восстанавливать лингвистические контексты слов.
+
+## BERT / BERT
+
+BERT (Bidirectional Encoder Representations from Transformers) is a transformer-based machine learning technique for natural language processing (NLP) pre-training. It was created and published in 2018 by Jacob Devlin and his colleagues from Google.
+
+BERT (двунаправленные представления кодировщика от трансформаторов) - это техника машинного обучения на основе трансформаторов для предварительного обучения обработки естественного языка (NLP). Он был создан и опубликован в 2018 году Джейкобом Девлином и его коллегами из Google.
+
+## Transformers / Трансформеры
+
+Transformers are a type of model architecture introduced in a paper called "Attention is All You Need". As opposed to directional models, which read the text input sequentially (left-to-right or right-to-left), the Transformer encoder reads the entire sequence of words at once. This characteristic allows the model to learn the context of a word based on all of its surroundings (left and right of the word).
+
+Трансформеры - это тип архитектуры модели, представленной в статье под названием "Внимание - все, что вам нужно". В отличие от направленных моделей, которые читают входной текст последовательно (слева направо или справа налево), кодировщик трансформера читает всю последовательность слов сразу. Эта характеристика позволяет модели учиться контексту слова на основе всех его окружений (слева и справа от слова).
